@@ -17,6 +17,15 @@
       "category": "education",
       "versions": [
         {
+          "version": "1.5",
+          "buildVersion": "13",
+          "date": "2026-11-11",
+          "localizedDescription": "Förhandsversion från grenen `mazemap`.\n\n### Karta i MazeMap\n- När du öppnar en föreläsning, ett seminarium, en tenta eller något annat pass visas salen på **MazeMap**, med våningsplanet och salen markerad. Tryck på kartan för att öppna hela MazeMap med vägvisning (i MazeMap-appen om du har den, annars i Safari).\n- Har passet flera salar väljer du sal överst i kortet.\n- Tentor utan sal visar \"Salen är inte bestämd än\". Kartan dyker upp när skolan har lagt in salen i schemat.\n- Gäller skolor som finns på MazeMap. Av skolorna i appen är det Örebro universitet (Campus Örebro och Universitetssjukhuset Örebro).\n\n### Lagat\n- Vissa tentor visade \"|Sal:\" som sal. Det är borttaget.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.5/Timeboard-1.5.ipa",
+          "size": 6878243,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.4",
           "buildVersion": "12",
           "date": "2026-11-11",
@@ -81,12 +90,12 @@
           "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp dina sparade skollösenord när du loggas in på Blackboard eller KronoX."
         }
       },
-      "version": "1.4",
-      "buildVersion": "12",
+      "version": "1.5",
+      "buildVersion": "13",
       "versionDate": "2026-11-11",
-      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### English\n- Timeboard is now in **English** whenever your phone's language isn't Swedish – the app, widgets, Live Activity, notifications, Siri, permission prompts and dates. Swedish phones keep everything in Swedish. Content from KronoX and Blackboard (course names, session titles) stays as your school wrote it.\n\n### Boka grupprum\n- Knappen **Boka grupprum** på Idag försvinner när du scrollar ner och kommer tillbaka högst upp.\n- Inloggningen till KronoX är skolneutral (\"din skolas KronoX\", \"schema.xxx.se\").\n\n### Schema\n- Svarar KronoX inte i tid försöker appen en gång till. Annars står det \"KronoX svarar inte just nu. Visar senast sparade schema.\" i stället för systemets feltext.\n\n### Inte provat på en riktig telefon än\nWidgetarna, notiserna och Siri-fraserna på engelska.",
-      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.4/Timeboard-1.4.ipa",
-      "size": 6851542,
+      "versionDescription": "Förhandsversion från grenen `mazemap`.\n\n### Karta i MazeMap\n- När du öppnar en föreläsning, ett seminarium, en tenta eller något annat pass visas salen på **MazeMap**, med våningsplanet och salen markerad. Tryck på kartan för att öppna hela MazeMap med vägvisning (i MazeMap-appen om du har den, annars i Safari).\n- Har passet flera salar väljer du sal överst i kortet.\n- Tentor utan sal visar \"Salen är inte bestämd än\". Kartan dyker upp när skolan har lagt in salen i schemat.\n- Gäller skolor som finns på MazeMap. Av skolorna i appen är det Örebro universitet (Campus Örebro och Universitetssjukhuset Örebro).\n\n### Lagat\n- Vissa tentor visade \"|Sal:\" som sal. Det är borttaget.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.5/Timeboard-1.5.ipa",
+      "size": 6878243,
       "minOSVersion": "26.0"
     }
   ],
