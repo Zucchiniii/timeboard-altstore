@@ -17,6 +17,15 @@
       "category": "education",
       "versions": [
         {
+          "version": "1.3.1",
+          "buildVersion": "11",
+          "date": "2026-11-11",
+          "localizedDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Boka grupprum\n- Inloggningen till KronoX säger nu tydligt att du ska ange **bara användarnamnet**, alltså delen före @, inte t.ex. @edunet.xxx.se. Skriver du hela adressen ändå tar appen bort allt från @ och framåt.\n- Rubriken i inloggningen har samma gruppikon som knappen på Idag.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.3.1/Timeboard-1.3.1.ipa",
+          "size": 6771582,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.3",
           "buildVersion": "10",
           "date": "2026-11-11",
@@ -63,12 +72,12 @@
           "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp ditt sparade skollösenord när du ska loggas in på Blackboard."
         }
       },
-      "version": "1.3",
-      "buildVersion": "10",
+      "version": "1.3.1",
+      "buildVersion": "11",
       "versionDate": "2026-11-11",
-      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Boka grupprum\n- Ny knapp **Boka grupprum** uppe på Idag. Logga in med samma konto som på schema.oru.se, välj lokalgrupp och dag, och tryck på en ledig tid för att boka.\n- **Mina bokningar** visas överst. Där avbokar du och ser när bokningen måste bekräftas. Knappen **Bekräfta** dyker upp när KronoX tillåter det.\n- **Kom ihåg med Face ID** sparar KronoX-lösenordet i telefonens nyckelring, så loggar appen in igen själv när KronoX har glömt dig. Lösenordet skickas bara till schema.oru.se.\n- Visar KronoX ett eget meddelande, till exempel för en dag som inte går att boka, visas det i appen.\n\n### Inte provat än\nKnappen Bekräfta, eftersom den bara visas i bekräftelsefönstret.",
-      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.3/Timeboard-1.3.ipa",
-      "size": 6769920,
+      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Boka grupprum\n- Inloggningen till KronoX säger nu tydligt att du ska ange **bara användarnamnet**, alltså delen före @, inte t.ex. @edunet.xxx.se. Skriver du hela adressen ändå tar appen bort allt från @ och framåt.\n- Rubriken i inloggningen har samma gruppikon som knappen på Idag.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.3.1/Timeboard-1.3.1.ipa",
+      "size": 6771582,
       "minOSVersion": "26.0"
     }
   ],
