@@ -44,7 +44,14 @@
           "NSCalendarsWriteOnlyAccessUsageDescription": "Timeboard lägger till pass och tentor i din kalender när du väljer det.",
           "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp ditt sparade skollösenord när du ska loggas in på Blackboard."
         }
-      }
+      },
+      "version": "1.2.1",
+      "buildVersion": "8",
+      "versionDate": "2026-11-11",
+      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Håll mig inloggad fungerar nu\n- I 1.2 hamnade det sparade lösenordet i ett dolt, gammalt formulär på idp.oru.se. Nu går appen samma väg som du: väljer **ORU-konto**, väljer ditt Microsoft-konto och svarar ja på \"Vill du förbli inloggad?\". Bara om Microsoft frågar fylls e-post och lösenord i, och bara på Microsofts egen sida, efter Face ID.\n- Spara din **e-postadress**, inte bara användarnamnet: stäng av och slå på Håll mig inloggad igen och skriv in samma uppgifter som du loggar in hos Microsoft med.\n- Ber Microsoft om en kod eller Authenticator får du logga in själv som vanligt.\n- Microsofts inloggning sparas nu också i nyckelringen, så appen behöver mer sällan fråga efter lösenordet.\n\n### Sök på iOS 27\n- Sökfältet kommer nu fram när du trycker på Sök i flikraden.\n\n### Uppdateringar i AltStore\n- Lägg till källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json` i AltStore. Framtida versioner kommer då som uppdateringar, utan ominstallation.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.2.1/Timeboard-1.2.1.ipa",
+      "size": 6664921,
+      "minOSVersion": "26.0"
     }
   ],
   "news": []
