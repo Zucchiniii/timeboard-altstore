@@ -17,6 +17,15 @@
       "category": "education",
       "versions": [
         {
+          "version": "1.4",
+          "buildVersion": "12",
+          "date": "2026-11-11",
+          "localizedDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### English\n- Timeboard is now in **English** whenever your phone's language isn't Swedish – the app, widgets, Live Activity, notifications, Siri, permission prompts and dates. Swedish phones keep everything in Swedish. Content from KronoX and Blackboard (course names, session titles) stays as your school wrote it.\n\n### Boka grupprum\n- Knappen **Boka grupprum** på Idag försvinner när du scrollar ner och kommer tillbaka högst upp.\n- Inloggningen till KronoX är skolneutral (\"din skolas KronoX\", \"schema.xxx.se\").\n\n### Schema\n- Svarar KronoX inte i tid försöker appen en gång till. Annars står det \"KronoX svarar inte just nu. Visar senast sparade schema.\" i stället för systemets feltext.\n\n### Inte provat på en riktig telefon än\nWidgetarna, notiserna och Siri-fraserna på engelska.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.4/Timeboard-1.4.ipa",
+          "size": 6851542,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.3.1",
           "buildVersion": "11",
           "date": "2026-11-11",
@@ -69,15 +78,15 @@
         ],
         "privacy": {
           "NSCalendarsWriteOnlyAccessUsageDescription": "Timeboard lägger till pass och tentor i din kalender när du väljer det.",
-          "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp ditt sparade skollösenord när du ska loggas in på Blackboard."
+          "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp dina sparade skollösenord när du loggas in på Blackboard eller KronoX."
         }
       },
-      "version": "1.3.1",
-      "buildVersion": "11",
+      "version": "1.4",
+      "buildVersion": "12",
       "versionDate": "2026-11-11",
-      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Boka grupprum\n- Inloggningen till KronoX säger nu tydligt att du ska ange **bara användarnamnet**, alltså delen före @, inte t.ex. @edunet.xxx.se. Skriver du hela adressen ändå tar appen bort allt från @ och framåt.\n- Rubriken i inloggningen har samma gruppikon som knappen på Idag.",
-      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.3.1/Timeboard-1.3.1.ipa",
-      "size": 6771582,
+      "versionDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### English\n- Timeboard is now in **English** whenever your phone's language isn't Swedish – the app, widgets, Live Activity, notifications, Siri, permission prompts and dates. Swedish phones keep everything in Swedish. Content from KronoX and Blackboard (course names, session titles) stays as your school wrote it.\n\n### Boka grupprum\n- Knappen **Boka grupprum** på Idag försvinner när du scrollar ner och kommer tillbaka högst upp.\n- Inloggningen till KronoX är skolneutral (\"din skolas KronoX\", \"schema.xxx.se\").\n\n### Schema\n- Svarar KronoX inte i tid försöker appen en gång till. Annars står det \"KronoX svarar inte just nu. Visar senast sparade schema.\" i stället för systemets feltext.\n\n### Inte provat på en riktig telefon än\nWidgetarna, notiserna och Siri-fraserna på engelska.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.4/Timeboard-1.4.ipa",
+      "size": 6851542,
       "minOSVersion": "26.0"
     }
   ],
