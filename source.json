@@ -1,0 +1,42 @@
+{
+  "name": "Timeboard",
+  "identifier": "se.timglas.source",
+  "subtitle": "KronoX-schema och Blackboard på ett ställe",
+  "description": "Uppdateringar av Timeboard för AltStore.",
+  "iconURL": "https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/icon.png",
+  "tintColor": "#1F82FF",
+  "apps": [
+    {
+      "name": "Timeboard",
+      "bundleIdentifier": "se.timglas.app",
+      "developerName": "Zucchiniii",
+      "subtitle": "Schema, uppgifter och kursinnehåll",
+      "localizedDescription": "Ditt KronoX-schema med uppgifter, meddelanden och kursinnehåll från Blackboard, widgetar och Live-aktivitet.",
+      "iconURL": "https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/icon.png",
+      "tintColor": "#1F82FF",
+      "category": "education",
+      "versions": [
+        {
+          "version": "1.2",
+          "buildVersion": "7",
+          "date": "2026-11-11",
+          "localizedDescription": "Förhandsversion från grenen `feature/blackboard`.\n\n### Blackboard-inloggningen\n- **Håll mig inloggad** (Inställningar → Blackboard): skriv in ditt skolkonto en gång, så loggar appen in åt dig när sessionen har gått ut. Lösenordet sparas bara i den här telefonens nyckelring, låses upp med Face ID eller telefonens kod varje gång och fylls bara i på skolans egen inloggningssida. Det är frivilligt och avstängt från början. Reglaget finns bara när appen är installerad med ditt eget Apple-id.\n- En giltig sparad inloggning kunde skrivas över direkt efter att appen startats. Det är lagat.\n\n### Kursinnehåll\n- **Fäst** filer och mappar: håll in på en rad och välj \"Fäst överst\". De hamnar under \"Fästa\", överst under Kurser.\n- **Material till passet:** passets sida visar filer i kursinnehållet som heter som passet.\n- **Offline:** ladda ner en hel mapp eller hela kursen. Nedladdade filer får en grön markering.\n- Sökindexet sparas, så sökningen är redo direkt när appen startar.\n\n### Uppgifter och meddelanden\n- **Betyg:** alla bedömda uppgifter med betyg, kurs för kurs.\n- Meddelanden och instruktioner visas med formatering, länkar och bilagor. Nya meddelanden märks med \"Ny\".\n- **Sök-fliken** hittar även kursmaterial, uppgifter, meddelanden och kommande pass.\n\n### iPhone-funktioner\n- **Live-aktivitet** på låsskärmen och i Dynamic Island för passet som pågår eller börjar inom två timmar. Den startar när du öppnar appen och kan stängas av under Inställningar → Notiser.\n- **Lägg till i Kalender** på passets sida.\n- **Snabbval** på appikonen: Kursinnehåll, Uppgifter och Vecka.\n- **Siri och Genvägar:** \"Vad har jag härnäst i Timeboard?\" och \"Vad ska jag lämna in i Timeboard?\"\n- **Widgeten Material** med dina fästa filer och mappar.\n\n### Inställningar\n- Fem delar i stället för sju. Felsökning och widgetstatus ligger under \"Om appen och felsökning\", och versionsnumret står längst ner.\n- Tema och notisval kommer tillbaka efter en ominstallation.\n\n### Inte provat på en riktig telefon än\nDen automatiska inloggningen, nedladdning av mappar, kalenderbladet, snabbvalen, Siri-fraserna, Material-widgeten och Dynamic Island.\n\n### Installera\n`Timeboard-1.2.ipa` är **osignerad**. Installera den med ditt **gratis Apple-id via AltStore**, SideStore eller Xcode, så fungerar widgetarna och \"Håll mig inloggad\". Använd inte signeringstjänster som KravaSign.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v1.2/Timeboard-1.2.ipa",
+          "size": 6656790,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCalendarsWriteOnlyAccessUsageDescription": "Timeboard lägger till pass och tentor i din kalender när du väljer det.",
+          "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp ditt sparade skollösenord när du ska loggas in på Blackboard."
+        }
+      }
+    }
+  ],
+  "news": []
+}
