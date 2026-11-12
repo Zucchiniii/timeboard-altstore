@@ -17,6 +17,15 @@
       "category": "education",
       "versions": [
         {
+          "version": "2.2",
+          "buildVersion": "16",
+          "date": "2026-11-13",
+          "localizedDescription": "### Kursinnehåll för flera kurser\n- Har du flera kurser i Blackboard visas kursinnehållet nu i en enda del på Kurser-fliken, med en rad kurskoder överst. Tryck på en kurs för att se dess material – valet sparas, och från början väljs kursen med närmaste pass.\n- Kommande tentor och kurserna i schemat syns direkt under, i stället för efter alla kursers innehåll.\n- Sök i kursinnehåll söker fortfarande i alla kurser. Med en kurs ser allt ut som förut.\n\n### Installera\nUppdatera i AltStore (källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json`), eller installera `Timeboard-2.2.ipa` med ditt eget Apple-id via AltStore, SideStore eller Xcode.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.2/Timeboard-2.2.ipa",
+          "size": 6888667,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "2.1",
           "buildVersion": "15",
           "date": "2026-11-12",
@@ -108,12 +117,12 @@
           "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp dina sparade skollösenord när du loggas in på Blackboard eller KronoX."
         }
       },
-      "version": "2.1",
-      "buildVersion": "15",
-      "versionDate": "2026-11-12",
-      "versionDescription": "### Slippa logga in igen\n- Första gången Blackboard loggar ut dig frågar Timeboard om du vill slå på **Håll mig inloggad**. Säger du ja kommer du direkt till inställningen, och när inloggningen är sparad loggar appen in åt dig på en gång.\n- Frågan visas bara en gång. Du kan alltid slå på eller av det under Inställningar → Blackboard.\n- Lösenordet sparas bara i telefonens nyckelring och låses upp med Face ID.\n\n### Installera\nUppdatera i AltStore (källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json`), eller installera `Timeboard-2.1.ipa` med ditt eget Apple-id via AltStore, SideStore eller Xcode.",
-      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.1/Timeboard-2.1.ipa",
-      "size": 6883965,
+      "version": "2.2",
+      "buildVersion": "16",
+      "versionDate": "2026-11-13",
+      "versionDescription": "### Kursinnehåll för flera kurser\n- Har du flera kurser i Blackboard visas kursinnehållet nu i en enda del på Kurser-fliken, med en rad kurskoder överst. Tryck på en kurs för att se dess material – valet sparas, och från början väljs kursen med närmaste pass.\n- Kommande tentor och kurserna i schemat syns direkt under, i stället för efter alla kursers innehåll.\n- Sök i kursinnehåll söker fortfarande i alla kurser. Med en kurs ser allt ut som förut.\n\n### Installera\nUppdatera i AltStore (källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json`), eller installera `Timeboard-2.2.ipa` med ditt eget Apple-id via AltStore, SideStore eller Xcode.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.2/Timeboard-2.2.ipa",
+      "size": 6888667,
       "minOSVersion": "26.0"
     }
   ],
