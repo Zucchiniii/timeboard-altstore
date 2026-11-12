@@ -17,6 +17,15 @@
       "category": "education",
       "versions": [
         {
+          "version": "2.1",
+          "buildVersion": "15",
+          "date": "2026-11-12",
+          "localizedDescription": "### Slippa logga in igen\n- Första gången Blackboard loggar ut dig frågar Timeboard om du vill slå på **Håll mig inloggad**. Säger du ja kommer du direkt till inställningen, och när inloggningen är sparad loggar appen in åt dig på en gång.\n- Frågan visas bara en gång. Du kan alltid slå på eller av det under Inställningar → Blackboard.\n- Lösenordet sparas bara i telefonens nyckelring och låses upp med Face ID.\n\n### Installera\nUppdatera i AltStore (källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json`), eller installera `Timeboard-2.1.ipa` med ditt eget Apple-id via AltStore, SideStore eller Xcode.",
+          "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.1/Timeboard-2.1.ipa",
+          "size": 6883965,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "2.0",
           "buildVersion": "14",
           "date": "2026-11-11",
@@ -99,12 +108,12 @@
           "NSFaceIDUsageDescription": "Timeboard använder Face ID för att låsa upp dina sparade skollösenord när du loggas in på Blackboard eller KronoX."
         }
       },
-      "version": "2.0",
-      "buildVersion": "14",
-      "versionDate": "2026-11-11",
-      "versionDescription": "Första officiella versionen av **Timeboard** (f.d. Timglas). Allt från förhandsversionerna 1.1–1.5 finns med.\n\n### Schema från KronoX\n- Idag, Vecka och Kurser med tydliga passtyper (föreläsning, seminarium, tenta …), färger per kurs och kommande tentor.\n- **Karta i MazeMap:** salen på passets sida, med våningsplan och vägvisning (skolor som finns på MazeMap, t.ex. Örebro universitet).\n- Lägg till pass i Kalender, påminnelser, morgonöversikt och notiser när schemat ändras.\n\n### Blackboard\n- Uppgifter med deadlines, betyg, meddelanden och hela **kursinnehållet** – fäst filer, ladda ner för offline och sök i allt.\n- **Håll mig inloggad:** loggar in igen själv via skolans Microsoft-inloggning, med lösenordet skyddat av Face ID i nyckelringen.\n\n### Boka grupprum\n- Se lediga grupprum i KronoX, boka, avboka och bekräfta direkt i appen.\n\n### iPhone\n- Widgetar (Härnäst, Idag, Agenda, Att lämna in, Material), Live-aktivitet i Dynamic Island, Siri-genvägar och snabbval på appikonen.\n- På svenska, och på **engelska** när telefonen har ett annat språk.\n\n### Installera\n`Timeboard-2.0.ipa` är osignerad. Installera med ditt eget Apple-id via **AltStore** (lägg till källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json` för automatiska uppdateringar), SideStore eller Xcode. Då fungerar widgetarna och Håll mig inloggad.",
-      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.0/Timeboard-2.0.ipa",
-      "size": 6878240,
+      "version": "2.1",
+      "buildVersion": "15",
+      "versionDate": "2026-11-12",
+      "versionDescription": "### Slippa logga in igen\n- Första gången Blackboard loggar ut dig frågar Timeboard om du vill slå på **Håll mig inloggad**. Säger du ja kommer du direkt till inställningen, och när inloggningen är sparad loggar appen in åt dig på en gång.\n- Frågan visas bara en gång. Du kan alltid slå på eller av det under Inställningar → Blackboard.\n- Lösenordet sparas bara i telefonens nyckelring och låses upp med Face ID.\n\n### Installera\nUppdatera i AltStore (källan `https://raw.githubusercontent.com/Zucchiniii/timeboard-altstore/main/source.json`), eller installera `Timeboard-2.1.ipa` med ditt eget Apple-id via AltStore, SideStore eller Xcode.",
+      "downloadURL": "https://github.com/Zucchiniii/timeboard-altstore/releases/download/v2.1/Timeboard-2.1.ipa",
+      "size": 6883965,
       "minOSVersion": "26.0"
     }
   ],
